@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeTravel Agency | Explorez le Temps</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com.rproxy.goskope.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">⏳ TimeTravel Agency</div>
+        <nav>
+            <a href="#destinations">Destinations</a>
+            <a href="#booking">Réserver</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Où irez-vous... et surtout <span>Quand</span> ?</h1>
+            <p>L'agence de voyage pionnière dans l'exploration temporelle. Vivez l'Histoire, découvrez le Futur.</p>
+            <a href="#destinations" class="cta-btn">Explorer les Époques</a>
+        </div>
+        <div class="stars"></div>
+    </section>
+
+    <section id="destinations">
+        <h2>Nos Destinations Phares</h2>
+        <div class="cards-container">
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1604871000636-074fa5117945?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80');"></div>
+                <div class="card-info">
+                    <h3>Égypte Antique</h3>
+                    <p>-2560 av. J.-C. | Assistez à la construction de la Grande Pyramide de Gizeh.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1544928147-79a2dbc1f389?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80');"></div>
+                <div class="card-info">
+                    <h3>Renaissance Italienne</h3>
+                    <p>1504 ap. J.-C. | Rencontrez Léonard de Vinci et découvrez Florence à son apogée.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1515630278258-407f66498911?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80');"></div>
+                <div class="card-info">
+                    <h3>Néo-Tokyo 2150</h3>
+                    <p>2150 ap. J.-C. | Plongez dans la mégalopole cyberpunk aux néons infinis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking">
+        <h2>Planifiez votre Saut Temporel</h2>
+        <form id="booking-form">
+            <div class="form-group">
+                <label for="destination">Destination temporelle :</label>
+                <select id="destination" required>
+                    <option value="">Sélectionnez une époque...</option>
+                    <option value="egypte">Égypte Antique (-2560)</option>
+                    <option value="renaissance">Renaissance Italienne (1504)</option>
+                    <option value="futur">Néo-Tokyo (2150)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="date">Date de départ (Présent) :</label>
+                <input type="date" id="date" required>
+            </div>
+            <button type="submit" class="cta-btn">Initialiser le portail</button>
+        </form>
+    </section>
+
+    <div id="chatbot-container">
+        <div id="chatbot-header">
+            <span>Agent Temporel T-800</span>
+            <button id="close-chat">_</button>
+        </div>
+        <div id="chatbot-messages">
+            <div class="msg bot">Bonjour ! Je suis votre assistant temporel. Comment puis-je vous aider à choisir votre époque ?</div>
+        </div>
+        <div id="chatbot-input">
+            <input type="text" id="chat-input" placeholder="Posez votre question...">
+            <button id="send-btn">Envoyer</button>
+        </div>
+    </div>
+    
+    <button id="open-chat">💬 Assistance</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
