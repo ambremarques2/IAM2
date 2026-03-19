@@ -15,25 +15,25 @@ Ce projet a été réalisé dans le cadre d'un cursus pédagogique (M1/M2 Digita
 
 ## 🛠️ Stack Technique
 
-- **Frontend** : React.js
-- **Styling** : Tailwind CSS
-- **Animations** : Framer Motion
-- **Intelligence Artificielle** : API Mistral AI (modèle *Mistral Small*)
-- **Hébergement & Déploiement** : Vercel
+- **Frontend** : HTML
+- **Styling** : CSS by gemini
+- **Animations** : JS animations (destinations)
+- **Intelligence Artificielle** : Pas réussis :(
+- **Hébergement & Déploiement** : Github pages
 
 ## ✨ Features Implémentées
 
 - 🌍 **Landing page interactive** avec animations fluides.
-- 🖼️ **Galerie temporelle** : Présentation immersive de 3 destinations distinctes (ex: Égypte Antique, Renaissance, Néo-Tokyo).
-- 💬 **Agent Temporel (Chatbot IA)** : Assistant conversationnel intégré capable de répondre aux questions des utilisateurs.
-- 🎯 **Recommandations personnalisées** générées dynamiquement par l'IA.
+- 🖼️ **Galerie temporelle** : Présentation immersive de 3 destinations distinctes avec animations au hover.
+- 💬 **Agent Temporel (Chatbot IA)** : chatbot avec une seule réponse
+- 🎯 **Recommandations personnalisées** pas finis.
 
 ## 🤖 Transparence IA (Outils Utilisés)
 
 Ce projet a été conçu en synergie avec plusieurs IA génératives :
-- **Génération de Code & Architecture** : Bolt.new (propulsé par Claude 3.5 Sonnet).
-- **Moteur du Chatbot** : API Mistral (modèle Mistral Small) pour la logique conversationnelle.
-- **Création des Visuels & Assets** : Midjourney (images fixes) et Runway (animations/vidéos) réalisés lors de la phase 1 du projet.
+- **Génération de Code & Architecture** : Gemini
+- **Moteur du Chatbot** : Pas finis
+- **Création des Visuels & Assets** : Gemini
 
 ## 💻 Instructions d'Installation
 
@@ -43,3 +43,6 @@ Si vous souhaitez faire tourner le projet en local, suivez ces étapes :
    ```bash
    git clone [https://github.com/votre-nom-utilisateur/timetravel-agency.git](https://github.com/votre-nom-utilisateur/timetravel-agency.git)
    cd timetravel-agency
+2. **Ouvrir index.html**
+
+Enjoy
